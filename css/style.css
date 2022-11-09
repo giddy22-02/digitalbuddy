@@ -341,6 +341,25 @@ ol {
 .nav-menu {
 	float: left;
 	
+}.contact-info{
+	background-color: #8B0000;
+}
+.top-contact li {
+	float: left;
+	margin: 10px;
+	margin-left: 20px;
+	font-weight: bold;
+	list-style: none;
+	
+}
+.top-contact li a{
+color: #ffffff;
+}
+
+.top-contact li i {
+	margin-right: 5px;
+	font-size: 14px;
+	color: #ffffff;
 }
 
 .nav-menu ul li {
