@@ -35,7 +35,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -46,10 +46,11 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
-	color: #111111;
+	margin: 0%;
+	
+	color: red;
 	font-weight: 400;
-	font-family: "Quantico", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -118,7 +119,7 @@ ol {
 }
 
 .section-title h2 {
-	color: #111111;
+	color: #0B0B45;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 15px;
@@ -164,10 +165,10 @@ ol {
 	font-size: 16px;
 	padding: 14px 30px;
 	color: #ffffff;
-	background: #009603;
+	background: #8B0000;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: "Quantico", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 .site-btn {
@@ -176,10 +177,10 @@ ol {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-family: "Quantico", sans-serif;
+	font-family: "Poppins", sans-serif;
 	display: inline-block;
 	padding: 14px 30px 12px;
-	background: #009603;
+	background: #0B0B45;
 	border: none;
 }
 
@@ -328,14 +329,18 @@ ol {
 	float: left;
 	padding: 30px 0;
 	margin-right: 80px;
+	margin-top: 0;
 }
 
 .logo a {
 	display: inline-block;
 }
-
+.header-section{
+	background-color: #0B0B45;
+}
 .nav-menu {
 	float: left;
+	
 }
 
 .nav-menu ul li {
@@ -367,11 +372,11 @@ ol {
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #111111;
+	color: white;
 	display: block;
 	padding: 32px 8px 30px;
 	position: relative;
-	font-family: "Quantico", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 .nav-menu ul li a:after {
@@ -380,7 +385,7 @@ ol {
 	bottom: 0;
 	height: 3px;
 	width: 100%;
-	background: #009603;
+	background:#8B0000;
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -392,7 +397,7 @@ ol {
 	position: absolute;
 	left: 0;
 	top: 105px;
-	background: #111111;
+	background: #0B0B45;
 	width: 180px;
 	z-index: 99;
 	opacity: 0;
@@ -423,7 +428,7 @@ ol {
 	height: 50px;
 	width: 50px;
 	color: #ffffff;
-	background: #009603;
+	background: #8B0000;
 	line-height: 50px;
 	text-align: center;
 	cursor: pointer;
@@ -438,7 +443,29 @@ ol {
 /*---------------------
   Hero
 -----------------------*/
-
+.banner_video{
+	position: absolute;
+		right: 0%;
+		bottom: 0%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: 100%;
+		z-index: -1;
+}
+@media(min-aspect-ratio: 16/9){
+	.banner_video{
+		width: 100%;
+		height: auto;
+	}
+}
+@media(min-aspect-ratio: 16/9) {
+	.banner_video {
+		width: auto;
+		height: 100%;
+	}
+}
+/*
 .hs-slider.owl-carousel .owl-item.active .hs-text h2 {
 	top: 0;
 	opacity: 1;
@@ -520,7 +547,7 @@ ol {
 	-o-transition: all 0.7s ease-out;
 	transition: all 0.7s ease-out;
 	opacity: 0;
-}
+}*/
 
 /*---------------------
   Services
@@ -556,7 +583,7 @@ ol {
 }
 
 .services-item h3 {
-	color: #191039;
+	color: #0B0B45;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 10px;
@@ -586,7 +613,7 @@ ol {
 	width: 50px;
 	line-height: 50px;
 	text-align: center;
-	background: rgba(0, 0, 0, 0.5);
+	background:#8B0000;
 	border-radius: 50%;
 	position: absolute;
 	left: 30px;
@@ -613,7 +640,7 @@ ol {
 }
 
 .cs-item .cs-text h4 {
-	color: #111111;
+	color: #0B0B45;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 10px;
@@ -625,7 +652,7 @@ ol {
 
 .cs-item .cs-text span {
 	font-size: 17px;
-	color: #009603;
+	color: #8B0000;
 	display: block;
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -670,7 +697,7 @@ ol {
 }
 
 .filter-controls ul li.active {
-	color: #009603;
+	color: #8B0000;
 }
 
 .filter-controls ul li:after {
@@ -715,7 +742,7 @@ ol {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
+	background:#8B0000;
 	content: "";
 	z-index: -1;
 	opacity: 0;
@@ -800,7 +827,7 @@ ol {
 }
 
 .load-more-btn.portfolio-btn a {
-	background: #009603;
+	background: #8B0000;
 }
 
 .load-more-btn a {
@@ -811,7 +838,7 @@ ol {
 	letter-spacing: 2px;
 	display: inline-block;
 	padding: 15px 102px 13px;
-	background: #000606;
+	background: #8B0000;
 	font-family: "Quantico", sans-serif;
 }
 
@@ -820,7 +847,7 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background: #000606;
+	background: #0B0B45;
 	padding-top: 70px;
 }
 
@@ -901,7 +928,7 @@ ol {
 	font-size: 15px;
 	color: #c4c4c4;
 	padding-left: 20px;
-	border: 1px solid #009603;
+	border: 1px solid #8B0000;
 	background: transparent;
 }
 
@@ -928,7 +955,7 @@ ol {
 .fs-widget .fw-subscribe form button {
 	font-size: 18px;
 	color: #ffffff;
-	background: #009603;
+	background: #8B0000;
 	height: 50px;
 	width: 50px;
 	border: none;
@@ -1227,14 +1254,14 @@ ol {
 	height: 36px;
 	line-height: 36px;
 	text-align: center;
-	background: #009603;
+	background: #8B0000;
 	float: left;
 	margin-right: 20px;
 }
 
 .so-item .so-title h5 {
 	font-size: 20px;
-	color: #111111;
+	color: #0B0B45;
 	font-weight: 700;
 	text-transform: uppercase;
 	overflow: hidden;
@@ -1249,7 +1276,7 @@ ol {
 /*---------------------
   Pricing Section
 -----------------------*/
-
+/*
 .pricing-section {
 	padding-bottom: 35px;
 	padding-top: 0;
@@ -1386,7 +1413,7 @@ ol {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-
+*/
 /*---------------------
   Portfolio Hero
 -----------------------*/
@@ -1542,7 +1569,7 @@ ol {
 /*---------------------
   Blog
 -----------------------*/
-
+/*
 .blog-section {
 	padding-top: 0;
 }
@@ -1751,7 +1778,7 @@ ol {
 /*---------------------
   Blog Details Section
 -----------------------*/
-
+/*
 .blog-hero {
 	height: 960px;
 }
@@ -2207,6 +2234,7 @@ ol {
 .blog-details-text .bd-comment-form .leave-form form textarea::placeholder {
 	color: #444444;
 }
+*/
 
 /*---------------------
   Gallery
@@ -2305,7 +2333,7 @@ ol {
 }
 
 .contact-text h3 {
-	color: #111111;
+	color: #0B0B45;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 15px;
@@ -2324,7 +2352,7 @@ ol {
 .contact-text .ct-item .ct-icon {
 	height: 80px;
 	width: 80px;
-	background: #009603;
+	background: #8B0000;
 	border-radius: 50%;
 	font-size: 40px;
 	line-height: 80px;
