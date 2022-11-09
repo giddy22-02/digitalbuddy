@@ -1021,7 +1021,7 @@ ol {
 	width: 100px;
 	line-height: 100px;
 	text-align: center;
-	background: #009603;
+	background: #8B0000;
 	font-size: 30px;
 	color: #ffffff;
 	display: inline-block;
@@ -1072,7 +1072,7 @@ ol {
 
 .about-text .at-list .al-item .al-text h5 {
 	font-size: 20px;
-	color: #111111;
+	color: #8B0000;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 8px;
